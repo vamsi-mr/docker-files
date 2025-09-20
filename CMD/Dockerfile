@@ -1,2 +1,2 @@
-FROM run:v1
-CMD [ "nginx", "-g", "daemon off;" ]
+FROM nginx:1.29.0-alpine
+CMD ["nginx", "-g", "daemon off;"]
